@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Century Gothic;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/header.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+body{
+    display: grid;
+    pace-items: center;
+    background-color: #E6E6FA;
+<!--background-color: #4682B4  #191970;-->
+
+    }
+
+main{
+  height: 100vh;
+
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+
+
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ ul li a{
+  text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#grade-form{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width:500px;
+      height:auto;
+      margin:50px auto 0;
+      padding:50px;
+      background-color:	#DAA520;
+    /* background-color:#6495ED; */
+<!--   background-color:#EEE;-->
+       color:#333;
+       border:2px solid #C2D6FF;
+        border-radius:40px 0 40px 0
+        /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)); */
+
+              }

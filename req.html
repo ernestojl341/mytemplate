@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>University Entry</title>
+    <link rel="stylesheet" type="text/css" href="req.css">
+  </head>
+
+
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="main">
+          <div class="logo">
+            <img src="images/My_Logo.png" alt="">
+          </div>
+
+          <ul>
+            <li class="active"><a href="index.html">Home</li>
+              <li><a href="req.html">Requirement</li>
+                <li><a href="#">Contact</li>
+          </ul>
+      </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main start -->
+    <main>
+      <!-- <h2>Choose your Programme of study</h2>
+ <hr /> -->
+
+<form id="grade-form" action="#" method="post" class="container">
+ <section class="form-req">
+   Select Programme:
+   <select id="Programme" class="" name="Programme" onchange="populate(this.id, 'elec1', 'elec2', 'elec3')">
+     <option value=""></option>
+     <option value="Agriculture">Agriculture</option>
+     <option value="Science">Science</option>
+     <option value="Arts">Arts</option>
+     <option value="Accounting"> Business (Accounting)</option>
+     <option value="Secretarial">Business (Secretarial)</option>
+     <option value="VisualArts">Visual Arts</option>
+     <option value="Economics">Home Economics</option>
+     <option value="TechnicalProgramme">Technical Programme</option>
+   </select>
+   <hr /> <br>
+
+   <h3>Select core Subjects</h3>
+
+   <div class="">
+     Core1:
+     <select id="Core1" class="core" name="Core1" required>
+       <option value=""></option>
+       <option value="English Language">English Language</option>
+       <option value="Mathematics">Mathematics</option>
+       <option value="Integrated Science">Integrated Science</option>
+       <option value="Social Studies">Social Studies</option>
+
+     </select>
+     <select class="" name="CoreGrade1" required>
+       <option value="">---</option>
+       <option value="9">F9</option>
+         <option value="8">E8</option>
+         <option value="7">D7</option>
+         <option value="6">C6</option>
+         <option value="5">C5</option>
+         <option value="4">C4</option>
+         <option value="3">B3</option>
+         <option value="2">B2</option>
+         <option value="1">A1</option>
+     </select>
+
+     <div class="">
+       Core2:
+       <select id="Core2" class="core" name="Core2" required>
+         <option value=""></option>
+         <option value="English Language">English Language</option>
+       <option value="Mathematics">Mathematics</option>
+       <option value="Integrated Science">Integrated Science</option>
+       <option value="Social Studies">Social Studies</option>
+       </select>
+
+       <select class="" name="CoreGrade2" required>
+         <option value="">---</option>
+        <option value="9">F9</option>
+         <option value="8">E8</option>
+         <option value="7">D7</option>
+         <option value="6">C6</option>
+         <option value="5">C5</option>
+         <option value="4">C4</option>
+         <option value="3">B3</option>
+         <option value="2">B2</option>
+         <option value="1">A1</option>
+
+       </select>
+     </div>
+
+     <div class="">
+       Core3:
+       <select id="Core3" class="core" name="Core3" required>
+         <option value=""></option>
+         <option value="English Language">English Language</option>
+         <option value="Mathematics">Mathematics</option>
+         <option value="Integrated Science">Integrated Science</option>
+         <option value="Social Studies">Social Studies</option>
+
+       </select>
+       <select class="" name="CoreGrade3" required>
+
+         <option value="">---</option>
+        <option value="9">F9</option>
+         <option value="8">E8</option>
+         <option value="7">D7</option>
+         <option value="6">C6</option>
+         <option value="5">C5</option>
+         <option value="4">C4</option>
+         <option value="3">B3</option>
+         <option value="2">B2</option>
+         <option value="1">A1</option>
+       </select>
+     </div>
+
+
+     <hr>
+     <br>
+     <h3>Select Elective Subjects</h3>
+     <div class="">
+       Elective1:
+       <select id="elec1" class="" name="Elective1" required></select>
+       Grade:
+       <select id="" class="" name="ElectiveGrade1" required>
+         <option value="">---</option>
+         <option value="9">F9</option>
+         <option value="8">E8</option>
+         <option value="7">D7</option>
+         <option value="6">C6</option>
+         <option value="5">C5</option>
+         <option value="4">C4</option>
+         <option value="3">B3</option>
+         <option value="2">B2</option>
+         <option value="1">A1</option>
+       </select>
+
+     </div>
+
+
+     <div class="">
+       Elective2:
+       <select id="elec2" class="" name="Elective2" required></select>
+       Grade:
+       <select id="grade" class="" name="ElectiveGrade2" required>
+         <option value="">---</option>
+         <option value="9">F9</option>
+         <option value="8">E8</option>
+         <option value="7">D7</option>
+         <option value="6">C6</option>
+         <option value="5">C5</option>
+         <option value="4">C4</option>
+         <option value="3">B3</option>
+         <option value="2">B2</option>
+         <option value="1">A1</option>
+       </select>
+
+     </div>
+
+     <div class="">
+       Elective3:
+       <select id="elec3" class="" name="Elective3" required></select>
+       Grade:
+       <select id="option3" class="" name="ElectiveGrade3" required>
+         <option value="">---</option>
+         <option value="9">F9</option>
+         <option value="8">E8</option>
+         <option value="7">D7</option>
+         <option value="6">C6</option>
+         <option value="5">C5</option>
+         <option value="4">C4</option>
+         <option value="3">B3</option>
+         <option value="2">B2</option>
+         <option value="1">A1</option>
+       </select>
+
+     </div>
+   </div>
+
+ </section>
+ <button type="submit" class="button">Submit</button>
+ </form>
+    </main>
+    <!-- main ends -->
+
+  </body>
+
+</html>
